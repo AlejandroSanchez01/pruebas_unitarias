@@ -31,6 +31,7 @@ jobs:
       #Se crea un entorno virtual y se activa    
       - name: Create virtualenv and activate
         run: |
+         pip install virtualenv
          virtualenv env
          source env/bin/activate
          
