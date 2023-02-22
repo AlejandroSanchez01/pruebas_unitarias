@@ -2,7 +2,7 @@
 Your module description
 """
 def sumar(x,y):
-    return x*y
+    return x+y
     
 
 def restar(x,y):
